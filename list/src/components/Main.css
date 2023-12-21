@@ -59,7 +59,6 @@
     color: #51c5de;
     cursor: pointer;
     transition: all 600ms;
-
 }
 
 .tarefas li .delete {
@@ -67,10 +66,14 @@
     color: #f04c64;
     cursor: pointer;
     transition: all 600ms;
-
 }
 
 .tarefas li:hover .edit,
 .tarefas li:hover .delete {
     color: #000;
+}
+
+.tarefas li span {
+    display: flex;
+    align-items: center;
 }
